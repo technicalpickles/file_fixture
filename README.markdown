@@ -18,6 +18,6 @@ If you were building wrappers around web APIs, you should use static data instea
 
 You could then use this in tests like:
 
-    stubbing_http_response_with_fxiture('get_tags.xml') do
+    stubbing_http_response_with_fixture('get_tags.xml') do
       assert_equal 6, @user.tags.size # @user.tags does a HTTP request
     end
