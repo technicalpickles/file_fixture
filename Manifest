@@ -1,4 +1,7 @@
+file_fixture.gemspec
 lib/file_fixture/test_unit.rb
 lib/file_fixture.rb
+LICENSE
 Manifest
 Rakefile
+README.markdown
